@@ -6,8 +6,8 @@ from ultralytics import YOLO
 # =========================
 # CONFIG
 # =========================
-PROJECT_DIR = Path(r"E:\Vegetable_Project")
-MODEL_PATH = PROJECT_DIR / "outputs" / "vegetable_classifier" / "weights" / "best.pt"
+PROJECT_DIR = Path(__file__).parent
+MODEL_PATH = PROJECT_DIR / "best.pt"
 
 IMAGE_SIZE = 384
 
